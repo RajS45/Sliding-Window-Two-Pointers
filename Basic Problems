@@ -2,7 +2,7 @@
 import java.util.Scanner;
 import java.util.Arrays;
 class Solution {
-    public int longestNonRepeatingSubstring(String s) {
+    public int longestNonRepeatingSubstring(String s) { 
         int n = s.length();
         int maxLen = 0;
         for(int i = 0; i < n; i++) {
